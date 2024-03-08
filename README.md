@@ -33,10 +33,10 @@ cd $HOME/AWSIM_v1.2.0
 ### First launch Unity Editor:
 ` Make sure ROS2 is NOT SOURCED in terminal`
 ```
-cd $HOME/zubair_autoware
+cd $HOME/Unity
 ./UnityHub.AppImage
 ```
-- Click on AWSIM project with path ‘home/ovin/zubair_autoware/AWSIM’
+- Click on AWSIM project with path ‘home/ovin/Unity/AWSIM’
 - Click play at the top.
 ### Launch Autoware:
 ```
