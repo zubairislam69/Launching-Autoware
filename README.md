@@ -52,3 +52,8 @@ Nishishinjuku Map:
 ```
 ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=sample_vehicle sensor_model:=awsim_sensor_kit map_path:=$HOME/autoware_map/nishishinjuku_autoware_map/
 ```
+
+R2 and SIRC Parking Lot Map:
+```
+ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=r2_vehicle sensor_model:=awsim_sensor_kit map_path:=$HOME/autoware_map/sirc_parking_lot/
+```
