@@ -9,11 +9,11 @@ source /opt/ros/humble/setup.bash
 ```
 Nishijinuku Map:
 ```
-ros2 launch autoware_launch planning_simulator.launch.xml vehicle_model:=sample_vehicle sensor_model:=awsim_sensor_kit map_path:=$HOME/autoware_map/nishishinjuku_autoware_map/
+ros2 launch autoware_launch planning_simulator.launch.xml vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit map_path:=$HOME/autoware_map/nishishinjuku_autoware_map/
 ```
 Sample Map:
 ```
-ros2 launch autoware_launch planning_simulator.launch.xml vehicle_model:=sample_vehicle sensor_model:=awsim_sensor_kit map_path:=$HOME/autoware_map/sample-map-planning/
+ros2 launch autoware_launch planning_simulator.launch.xml vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit map_path:=$HOME/autoware_map/sample-map-planning/
 ```
 
 ## Autoware and AWSIM Binary
